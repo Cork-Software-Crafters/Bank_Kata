@@ -24,7 +24,7 @@ public class AccountService {
 }
 ```
 
-##Acceptance test
+## Acceptance test
 
 ```java
 @Test
@@ -50,4 +50,4 @@ Start writing the acceptance test but then move to unit tests, and at the end fo
 [How to use Mockito](http://site.mockito.org/#now-you-can-verify-interactions)
 
 ## Source
-This kata is a fork of https://github.com/Codesai/curso-tdd-java/tree/master/katas-java/bank
+This version of the Bank kata is based on https://github.com/Codesai/curso-tdd-java/tree/master/katas-java/bank
