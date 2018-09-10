@@ -1,3 +1,6 @@
-export interface Calendar {
-    currentDate(): Date;
+export class Calendar {
+    currentDate(): Date {
+        // TODO: Not implemented yet
+        return;
+    };
 }
