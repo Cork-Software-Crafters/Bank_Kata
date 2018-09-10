@@ -1,5 +1,4 @@
 import { expect } from 'chai';
-import sinon = require('sinon');
 import { AccountService } from '../app/AccountService';
 import { Console } from '../app/Console';
 import { Calendar } from '../app/Calendar';
@@ -7,7 +6,7 @@ import { Calendar } from '../app/Calendar';
 describe('Account Service', () => {
 
     it('should print statement containing all transactions', () => {
-        let consoleSpy = new ConsoleSpy()
+        let consoleSpy = new ConsoleSpy();
         let calendarStub = new CalendarStub();
         let account: AccountService = new AccountService(consoleSpy, calendarStub);
 
