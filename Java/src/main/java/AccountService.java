@@ -1,6 +1,5 @@
 public class AccountService {
-    public AccountService(Console console, Calendar calendar) {
-
+    public AccountService() {
     }
 
     public void deposit(int amount) {

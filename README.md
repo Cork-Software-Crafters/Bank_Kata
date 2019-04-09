@@ -1,16 +1,14 @@
 # Bank account kata
 
-Develop a program to manage the transactions of a bank account.
-
 ## Requirements
-- The transactions are: deposit money into the account, and withdraw from the account. 
-- We need to be able to print an account statement into the console.
+Develop a simple bank application with the following features:
+- Deposit money into the account.
+- Withdraw money from the account.
+- Print a bank statement with all transactions to the console.
 
-## Rules
-You cannot change the signature of the public interface (the class AccountService).
+## Constraints
 
-## Code
-
+1. You cannot change the signature of the public interface (the class AccountService).
 ```java
 public class AccountService {
   public void deposit(int amount) {
@@ -23,6 +21,9 @@ public class AccountService {
   }
 }
 ```
+
+2. To keep it simple you can use strings and integers for dates and amounts.
+3. Do not worry about spacing in the statement printed on the console.
 
 ## Acceptance test
 

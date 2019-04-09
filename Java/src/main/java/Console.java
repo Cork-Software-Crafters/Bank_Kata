@@ -1,3 +1,5 @@
-public interface Console {
-    void printLine(String message);
+public class Console {
+    void printLine(String message) {
+        throw new UnsupportedOperationException("not implemented");
+    }
 }

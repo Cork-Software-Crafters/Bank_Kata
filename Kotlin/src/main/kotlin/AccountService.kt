@@ -1,4 +1,4 @@
-class AccountService(console: Console, calendar: Calendar) {
+class AccountService {
 
     fun deposit(amount: Int) {
     }
